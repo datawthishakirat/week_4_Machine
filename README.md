@@ -1,6 +1,6 @@
-# 📊 Data Science Internship: Machine Learning 
+# 📊 Machine Learning (Housing Price/ Titanic)
 
-Welcome to my repository for **Week 4** of the Data Science Internship program with AnalystLab Africa! This week, the project transitioned from exploratory statistical boundaries into predictive **Supervised Machine Learning**, building and optimizing both regression and classification pipelines.
+Welcome to my repository for **Week 4** of the Data Science Internship program with AnalystLab Africa! This week, the project transitioned from exploratory statistical boundaries into predictive **Machine Learning**, building and optimizing both regression and classification pipelines.
 
 This repository contains the end-to-end machine learning workflows for two distinct datasets: **The Housing Prices Dataset** and **The Titanic Passenger Manifest**.
 
@@ -48,5 +48,5 @@ The Logistic Regression model correctly classified passenger survival outcomes i
 ---
 
 ## 🚀 Challenges Overcome
-1. **Handling Categorical Constraints:** Resolved string text limitations by mapping features into machine-readable format using `pd.get_dummies(drop_first=True)`.
-2. **Target Skewness:** Corrected the heavy right-hand luxury property price skew using a logarithmic target transformation, stabilizing model weights and drastically cutting down evaluation penalties (RMSE).
+1.  Resolved string text limitations by mapping features into machine-readable format using `pd.get_dummies(drop_first=True)`.
+2.  Corrected the heavy right-hand luxury property price skew using a logarithmic target transformation, stabilizing model weights and drastically cutting down evaluation penalties (RMSE).
